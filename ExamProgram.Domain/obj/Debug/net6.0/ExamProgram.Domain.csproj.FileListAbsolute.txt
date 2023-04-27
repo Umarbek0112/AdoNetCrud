@@ -1,0 +1,12 @@
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Domain\bin\Debug\net6.0\ExamProgram.Domain.deps.json
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Domain\bin\Debug\net6.0\ExamProgram.Domain.dll
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Domain\bin\Debug\net6.0\ExamProgram.Domain.pdb
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Domain\obj\Debug\net6.0\ExamProgram.Domain.csproj.AssemblyReference.cache
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Domain\obj\Debug\net6.0\ExamProgram.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Domain\obj\Debug\net6.0\ExamProgram.Domain.AssemblyInfoInputs.cache
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Domain\obj\Debug\net6.0\ExamProgram.Domain.AssemblyInfo.cs
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Domain\obj\Debug\net6.0\ExamProgram.Domain.csproj.CoreCompileInputs.cache
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Domain\obj\Debug\net6.0\ExamProgram.Domain.dll
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Domain\obj\Debug\net6.0\refint\ExamProgram.Domain.dll
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Domain\obj\Debug\net6.0\ExamProgram.Domain.pdb
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Domain\obj\Debug\net6.0\ref\ExamProgram.Domain.dll

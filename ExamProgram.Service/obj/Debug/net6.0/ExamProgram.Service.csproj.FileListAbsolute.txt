@@ -1,0 +1,17 @@
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Service\bin\Debug\net6.0\ExamProgram.Service.deps.json
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Service\bin\Debug\net6.0\ExamProgram.Service.dll
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Service\bin\Debug\net6.0\ExamProgram.Service.pdb
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Service\bin\Debug\net6.0\ExamProgram.Data.dll
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Service\bin\Debug\net6.0\ExamProgram.Domain.dll
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Service\bin\Debug\net6.0\ExamProgram.Data.pdb
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Service\bin\Debug\net6.0\ExamProgram.Domain.pdb
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Service\obj\Debug\net6.0\ExamProgram.Service.csproj.AssemblyReference.cache
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Service\obj\Debug\net6.0\ExamProgram.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Service\obj\Debug\net6.0\ExamProgram.Service.AssemblyInfoInputs.cache
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Service\obj\Debug\net6.0\ExamProgram.Service.AssemblyInfo.cs
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Service\obj\Debug\net6.0\ExamProgram.Service.csproj.CoreCompileInputs.cache
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Service\obj\Debug\net6.0\ExamProgram.Service.csproj.CopyComplete
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Service\obj\Debug\net6.0\ExamProgram.Service.dll
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Service\obj\Debug\net6.0\refint\ExamProgram.Service.dll
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Service\obj\Debug\net6.0\ExamProgram.Service.pdb
+C:\Users\i7TechStore\source\repos\ExamProgram\ExamProgram.Service\obj\Debug\net6.0\ref\ExamProgram.Service.dll

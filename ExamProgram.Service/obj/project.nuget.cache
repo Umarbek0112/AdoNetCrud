@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "jKY4xzaAQ8dB7LMVCrHN86T98zcHbnexbqUsDUhiLEdCxzhuOL0DMAFazfw7Y8xG/PryvotrZ3kqdtdpH7Doxg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\ExamProgram.Service\\ExamProgram.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\i7TechStore\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\i7TechStore\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\i7TechStore\\.nuget\\packages\\npgsql\\6.0.9\\npgsql.6.0.9.nupkg.sha512",
+    "C:\\Users\\i7TechStore\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
