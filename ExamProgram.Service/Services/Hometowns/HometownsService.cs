@@ -2,12 +2,14 @@
 using ExamProgram.Data.IRepository;
 using ExamProgram.Data.Repository;
 using ExamProgram.Domain.Configurations;
+using ExamProgram.Domain.Entities.Hometowns;
 using ExamProgram.Domain.Entities.Users;
 using ExamProgram.Service.DTOs.HomeTowns;
 using ExamProgram.Service.Exceptionst;
 using ExamProgram.Service.Extensions;
 using ExamProgram.Service.Interfaces.Hometowns;
 using ExamProgram.Service.Mappers;
+using Npgsql;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -70,10 +72,27 @@ namespace ExamProgram.Service.Services.Hometowns
                 {
                     Id = reader.GetInt32(3),
                     Name = reader.GetString(0),
+                    
                     Users = new List<User>()
-                });
 
-                hometown[0].Users.Add(user);
+                });
+                /* User user;
+                  user = new User
+                 {
+                     Id = reader.GetInt32(12),
+                     LastName = reader.GetString(6),
+                     FirstName = reader.GetString(4),
+                     Email = reader.GetString(5),
+                     PhoneNumber = reader.GetString(7),
+                     UserName = reader.GetString(8),
+                     Password = reader.GetString(11)
+                 };
+                 Hometown hom = new Hometown();
+                 hom.Id = reader.GetInt32(3);
+                 hom.Name = reader.GetString(0);
+                 hom.Users.Add(user);*/
+
+                //hometown.Users.add(user);
 
             }
             await _repository.CloseAsync();
@@ -89,9 +108,18 @@ namespace ExamProgram.Service.Services.Hometowns
             HometownForViewDTO hometown = new HometownForViewDTO();
 
             var reader = await _repository.GetAsync($"Select * from Hometown inner join Users on Hometown.Id = Users.HometownId Where Hometown.Id = {id};");
-
+            int son = 0;
             while (reader.Read())
             {
+                son++;
+                if(son == 1)
+                    hometown = new HometownForViewDTO
+                    {
+                        Id = reader.GetInt32(3),
+                        Name = reader.GetString(0),
+                        Users = new List<User>()
+                    };
+
                 User user = new User();
                 user.Id = reader.GetInt32(12);
                 user.LastName = reader.GetString(6);
@@ -101,12 +129,7 @@ namespace ExamProgram.Service.Services.Hometowns
                 user.UserName = reader.GetString(8);
                 user.Password = reader.GetString(11);
 
-                hometown = new HometownForViewDTO
-                {
-                    Id = reader.GetInt32(3),
-                    Name = reader.GetString(0),
-                    Users = new List<User>()
-                };
+                
                 hometown.Users.Add(user);
             }
 

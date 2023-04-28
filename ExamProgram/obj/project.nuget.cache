@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "UUW0oBJQKxyRJhk1LtX+Hq8I0QxZczvOMF8+cU/N7fHlfI1B8tbRJQPs+xf7+YpeippYcXwb0VQ4g5/8gF94xg==",
+  "dgSpecHash": "Rmm42DtZzCwJ2E2hwZY8CPFgx65go9DF2gQ97RE2hH17K93AFBPleg71x+tJyHongDrrwrnOYws0wC+jiPQzVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\ExamProgram\\ExamProgram.csproj",
+  "projectFilePath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\AdoNetCrud\\ExamProgram\\ExamProgram.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\i7TechStore\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\i7TechStore\\.nuget\\packages\\materialdesigncolors\\2.1.2\\materialdesigncolors.2.1.2.nupkg.sha512",
+    "C:\\Users\\i7TechStore\\.nuget\\packages\\materialdesignthemes\\4.8.0\\materialdesignthemes.4.8.0.nupkg.sha512",
     "C:\\Users\\i7TechStore\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\i7TechStore\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
     "C:\\Users\\i7TechStore\\.nuget\\packages\\npgsql\\6.0.9\\npgsql.6.0.9.nupkg.sha512",
     "C:\\Users\\i7TechStore\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],

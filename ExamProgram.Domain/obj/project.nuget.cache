@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "syrgM/bWW1RfT5AYTy51oCld3Yz/dzISiJEH+NtZ0FC6sv5TllExGQVtSbD9tnkyJ40Vx99twjIvVDd2jC/1HA==",
+  "dgSpecHash": "BPkYSlVa7VOvLmA2gYwJhkyGuCnXUnwFNiiVoUTS+i49Ck1IY7uxDslM0wlGidQlJbfkmOtAqo1TuOtVgLuIWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\ExamProgram.Domain\\ExamProgram.Domain.csproj",
+  "projectFilePath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\AdoNetCrud\\ExamProgram.Domain\\ExamProgram.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

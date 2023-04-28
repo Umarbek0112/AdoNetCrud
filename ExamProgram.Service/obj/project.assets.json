@@ -242,11 +242,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\ExamProgram.Service\\ExamProgram.Service.csproj",
+      "projectUniqueName": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\AdoNetCrud\\ExamProgram.Service\\ExamProgram.Service.csproj",
       "projectName": "ExamProgram.Service",
-      "projectPath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\ExamProgram.Service\\ExamProgram.Service.csproj",
+      "projectPath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\AdoNetCrud\\ExamProgram.Service\\ExamProgram.Service.csproj",
       "packagesPath": "C:\\Users\\i7TechStore\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\ExamProgram.Service\\obj\\",
+      "outputPath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\AdoNetCrud\\ExamProgram.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\i7TechStore\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -263,11 +263,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\ExamProgram.Data\\ExamProgram.Data.csproj": {
-              "projectPath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\ExamProgram.Data\\ExamProgram.Data.csproj"
+            "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\AdoNetCrud\\ExamProgram.Data\\ExamProgram.Data.csproj": {
+              "projectPath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\AdoNetCrud\\ExamProgram.Data\\ExamProgram.Data.csproj"
             },
-            "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\ExamProgram.Domain\\ExamProgram.Domain.csproj": {
-              "projectPath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\ExamProgram.Domain\\ExamProgram.Domain.csproj"
+            "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\AdoNetCrud\\ExamProgram.Domain\\ExamProgram.Domain.csproj": {
+              "projectPath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\AdoNetCrud\\ExamProgram.Domain\\ExamProgram.Domain.csproj"
             }
           }
         }

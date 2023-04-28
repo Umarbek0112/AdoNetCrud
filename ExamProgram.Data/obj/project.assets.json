@@ -113,11 +113,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\ExamProgram.Data\\ExamProgram.Data.csproj",
+      "projectUniqueName": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\AdoNetCrud\\ExamProgram.Data\\ExamProgram.Data.csproj",
       "projectName": "ExamProgram.Data",
-      "projectPath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\ExamProgram.Data\\ExamProgram.Data.csproj",
+      "projectPath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\AdoNetCrud\\ExamProgram.Data\\ExamProgram.Data.csproj",
       "packagesPath": "C:\\Users\\i7TechStore\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\ExamProgram.Data\\obj\\",
+      "outputPath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\AdoNetCrud\\ExamProgram.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\i7TechStore\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -134,8 +134,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\ExamProgram.Domain\\ExamProgram.Domain.csproj": {
-              "projectPath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\ExamProgram.Domain\\ExamProgram.Domain.csproj"
+            "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\AdoNetCrud\\ExamProgram.Domain\\ExamProgram.Domain.csproj": {
+              "projectPath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\AdoNetCrud\\ExamProgram.Domain\\ExamProgram.Domain.csproj"
             }
           }
         }

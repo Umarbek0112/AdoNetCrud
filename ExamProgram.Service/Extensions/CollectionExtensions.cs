@@ -1,6 +1,8 @@
 ﻿using ExamProgram.Domain.Configurations;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace ExamProgram.Service.Extensions
 {
@@ -14,5 +16,17 @@ namespace ExamProgram.Service.Extensions
                 : source;
         }
 
+        public static string EncryptPassword(this string password)
+        {
+            MD5 md5 = new MD5CryptoServiceProvider();
+            byte[] bytes = Encoding.UTF8.GetBytes(password);
+            bytes = md5.ComputeHash(bytes);
+            StringBuilder sb = new StringBuilder();
+            foreach (byte b in bytes)
+            {
+                sb.Append(b.ToString("x2"));
+            }
+            return sb.ToString();
+        }
     }
 }

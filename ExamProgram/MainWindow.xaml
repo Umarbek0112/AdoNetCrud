@@ -1,0 +1,118 @@
+﻿<Window x:Class="ExamProgram.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamProgram"
+        xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="750"
+        Width="1200">
+    <Grid>
+        <!--To'liq window-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition MaxWidth="200" Width="0.3*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <!--Yon Window-->
+        <Grid Grid.Column="0"  Background="#0C0E10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.1*"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <TextBlock 
+                    Text="Restaurant" 
+                    Foreground="Aqua" 
+                    FontSize="20" 
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center" 
+                    FontFamily="Edwardian Script ITC" />
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <TextBlock 
+                    Text="Menyu" 
+                    VerticalAlignment="Center" 
+                    FontSize="30" 
+                    HorizontalAlignment="Center" 
+                    Foreground="#FFFFFF" />
+                <Grid Grid.Row="1">
+                    <StackPanel>
+                        <Button 
+                            Click="Button_Click_AddUser" 
+                            Margin="10 5 10 5"  
+                            FontSize="20"
+                            Content="🧑‍⚕️ Add User">
+                        </Button>
+                        <Button 
+                            Click="Button_Click_Users" 
+                            Margin="10 5 10 5" 
+                            FontSize="20"
+                            Content="🧑‍⚕️ Users">                            
+                        </Button>
+                        <Button 
+                            Click="Button_Click_Chat" 
+                            Margin="10 5 10 5" 
+                            FontSize="20"
+                            Content="👨‍👩‍👧‍👦 Chat">
+                        </Button>
+
+
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </Grid>
+
+        <!--Asosiy Window-->
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.1*"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Background="#191D20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1.3*"/>
+                    <ColumnDefinition Width="0.3*"/>
+                    <ColumnDefinition Width="0.3*"/>
+
+                </Grid.ColumnDefinitions>
+                <TextBox
+                    x:Name="SearchTextBox"
+                    md:HintAssist.Hint="Search"
+                    md:HintAssist.HintOpacity=".26"
+                    md:ComboBoxAssist.MaxLength="10"
+                    Foreground="#fff"
+                    FontSize="20"
+                    Margin="10 0 0 0"
+                    TextChanged="TextBox_TextChanged">
+
+                </TextBox>
+            </Grid>
+
+            <Grid Grid.Row="1" Background="#111315">
+
+                <ScrollViewer>
+                    <ItemsControl 
+                        x:Name="UserSelectControl" 
+                        Margin="5"/>
+                </ScrollViewer>
+                <Frame
+                    Grid.Column="0"
+                    x:Name="MainWPageFoodList"
+                    NavigationUIVisibility="Hidden"/>
+
+
+            </Grid>
+
+        </Grid>
+    </Grid>
+</Window>

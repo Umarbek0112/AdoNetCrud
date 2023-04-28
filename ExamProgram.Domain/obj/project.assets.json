@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\ExamProgram.Domain\\ExamProgram.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\AdoNetCrud\\ExamProgram.Domain\\ExamProgram.Domain.csproj",
       "projectName": "ExamProgram.Domain",
-      "projectPath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\ExamProgram.Domain\\ExamProgram.Domain.csproj",
+      "projectPath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\AdoNetCrud\\ExamProgram.Domain\\ExamProgram.Domain.csproj",
       "packagesPath": "C:\\Users\\i7TechStore\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\ExamProgram.Domain\\obj\\",
+      "outputPath": "C:\\Users\\i7TechStore\\source\\repos\\ExamProgram\\AdoNetCrud\\ExamProgram.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\i7TechStore\\AppData\\Roaming\\NuGet\\NuGet.Config",

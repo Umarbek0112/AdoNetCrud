@@ -7,17 +7,10 @@ namespace ExamProgram.Data.Repository
 {
     public class GenericRepository : IGenericRepositoriy
     {
-        private readonly ExamProgrmDbContext _dbContext;
-        private readonly NpgsqlCommand _command;
-
-        public GenericRepository()
-        {
-            _dbContext = new ExamProgrmDbContext();
-            _command = new NpgsqlCommand();
-        }
-
         public async Task<int> CreateAsync(string query)
         {
+            ExamProgrmDbContext _dbContext = new ExamProgrmDbContext();
+            NpgsqlCommand _command = new NpgsqlCommand();
             _command.CommandText = query;
             _command.Connection = _dbContext.Connection();
             return await _command.ExecuteNonQueryAsync();
@@ -25,6 +18,8 @@ namespace ExamProgram.Data.Repository
 
         public async Task<int> DeleteAsync(string query)
         {
+            ExamProgrmDbContext _dbContext = new ExamProgrmDbContext();
+            NpgsqlCommand _command = new NpgsqlCommand();
             _command.CommandText = query;
             _command.Connection = _dbContext.Connection();
             return await _command.ExecuteNonQueryAsync();
@@ -32,6 +27,8 @@ namespace ExamProgram.Data.Repository
 
         public async Task<NpgsqlDataReader> GetAllAsync(string query)
         {
+            ExamProgrmDbContext _dbContext = new ExamProgrmDbContext();
+            NpgsqlCommand _command = new NpgsqlCommand();
             _command.CommandText = query;
             _command.Connection = _dbContext.Connection();
             return await _command.ExecuteReaderAsync();
@@ -39,6 +36,8 @@ namespace ExamProgram.Data.Repository
 
         public async Task<NpgsqlDataReader> GetAsync(string query)
         {
+            ExamProgrmDbContext _dbContext = new ExamProgrmDbContext();
+            NpgsqlCommand _command = new NpgsqlCommand();
             _command.CommandText = query;
             _command.Connection = _dbContext.Connection();
             return await _command.ExecuteReaderAsync();
@@ -46,6 +45,8 @@ namespace ExamProgram.Data.Repository
 
         public async Task<int> UpdateAsync(string query)
         {
+            ExamProgrmDbContext _dbContext = new ExamProgrmDbContext();
+            NpgsqlCommand _command = new NpgsqlCommand();
             _command.CommandText = query;
             _command.Connection = _dbContext.Connection();
             return await _command.ExecuteNonQueryAsync();
@@ -53,7 +54,8 @@ namespace ExamProgram.Data.Repository
 
         public async Task CloseAsync()
         {
-           await _dbContext.Connection().CloseAsync();
+            ExamProgrmDbContext _dbContext = new ExamProgrmDbContext();
+            await _dbContext.Connection().CloseAsync();
         }
     }
 }

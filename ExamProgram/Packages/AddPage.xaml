@@ -1,0 +1,113 @@
+﻿<Page x:Class="ExamProgram.Packages.AddPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:local="clr-namespace:ExamProgram.Packages"
+      mc:Ignorable="d" 
+      Loaded="LoadedPage"
+      d:DesignHeight="650"
+      d:DesignWidth="800"
+      Title="AddPage">
+
+    <Page.Resources>
+        <Style TargetType="md:PackIcon" >
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="Width" Value="40"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Foreground" Value="#58585C"/>
+        </Style>
+
+        <Style TargetType="DockPanel">
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+    </Page.Resources>
+    <Grid >
+        <StackPanel Width="350">
+
+            <DockPanel Margin="10 50 10 10">
+                <md:PackIcon Kind="User"/>
+                <TextBox
+                    FontSize="15"
+                    Foreground="#58585C"
+                    x:Name="LastName"
+                    md:HintAssist.Hint="Last Name"
+                    md:TextFieldAssist.HasClearButton="True">
+                </TextBox>
+            </DockPanel>
+
+            <DockPanel>
+                <md:PackIcon Kind="User"/>
+                <TextBox 
+                   FontSize="15"
+                   Foreground="#58585C"
+                   md:HintAssist.Hint="First Name"
+                   x:Name="FirstName"
+                   md:TextFieldAssist.HasClearButton="True"/>
+            </DockPanel>
+
+            <DockPanel>
+                <md:PackIcon Kind="User"/>
+                <TextBox 
+                   FontSize="15"
+                   Foreground="#58585C"
+                   md:HintAssist.Hint="Username"
+                   x:Name="Username"
+                   md:TextFieldAssist.HasClearButton="True"/>
+            </DockPanel>
+
+            <DockPanel>
+                <md:PackIcon Kind="Email"/>
+                <TextBox 
+                   FontSize="15"
+                   Foreground="#58585C"
+                   md:HintAssist.Hint="Email"
+                   x:Name="Email"
+                   md:TextFieldAssist.HasClearButton="True"/>
+            </DockPanel>
+
+            <DockPanel>
+                <md:PackIcon Kind="Phone"/>
+                <TextBox 
+                   FontSize="15"
+                   Foreground="#58585C"
+                   md:HintAssist.Hint="Phone Number"
+                   x:Name="Phone"
+                   md:TextFieldAssist.HasClearButton="True"/>
+            </DockPanel>
+            <DockPanel>
+                <md:PackIcon Kind="Password"/>
+                <PasswordBox
+                    FontSize="15"
+                    MaxLength="10"
+                    Foreground="#58585C"
+                    x:Name="PasswordBox"
+                    md:HintAssist.Hint="Password"
+                    md:TextFieldAssist.HasClearButton="True"/>
+            </DockPanel>
+
+            <DockPanel>
+                <md:PackIcon Kind="Teacher"/>
+                <ComboBox
+                    Name="Combox"
+                    FontSize="15"
+                    Foreground="#58585C"
+                    md:HintAssist.Hint="Teacher">
+
+                </ComboBox>
+            </DockPanel>
+
+            <Button
+                Click="Button_Click_AddUser"
+                Margin="20 10"
+                Style="{StaticResource MaterialDesignRaisedDarkButton}"
+                ToolTip="Resource name: MaterialDesignRaisedLightDarkButton"
+                FontSize="20"
+                Height="40"
+                Content="+Add"
+                IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" />
+
+        </StackPanel>
+    </Grid>
+</Page>

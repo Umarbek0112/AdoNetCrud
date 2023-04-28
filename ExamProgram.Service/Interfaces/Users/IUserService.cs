@@ -16,5 +16,6 @@ namespace ExamProgram.Service.Interfaces.Users
         Task<UserForUpdateDTO> UpdateAsync(int id, UserForUpdateDTO userForUpdate);
         Task<UserForCreateDTO> CreateAsync(UserForCreateDTO userForCreate);
         Task<bool> DeleteAsync(int id);
+        
     }
 }
