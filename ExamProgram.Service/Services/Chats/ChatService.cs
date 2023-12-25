@@ -16,6 +16,7 @@ namespace ExamProgram.Service.Services.Chats
 {
     public class ChatService : IChatService
     {
+        private redonly IGenericRepositoriy repo;
         private readonly IGenericRepositoriy _repository;
         private readonly IMapper _mapper;
         public ChatService()
